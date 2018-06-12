@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="Inicio"
+            />
+        <item
+            android:id="@+id/nav_calendario"
+            android:title="Consultar Calendario de Entregables"
+            />
+        <item
+            android:id="@+id/nav_asignar"
+            android:title="Asignar nota entregable" />
+        <item
+            android:id="@+id/nav_consultarEntregables"
+            android:title="Consultar entregable"
+            />
+        <item
+            android:id="@+id/nav_solicitar"
+            android:title="Solicitar reunión"
+            />
+        <item
+            android:id="@+id/nav_consultarMinutas"
+            android:title="Consultar minutas"
+            />
+        <item
+            android:id="@+id/nav_log_out"
+            android:title="Salir"
+            />
+    </group>
+</menu>

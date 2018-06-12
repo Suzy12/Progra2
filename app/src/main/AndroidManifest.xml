@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="com.example.poo.progra2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:label="PrograPOO2"
+        android:theme="@style/AppTheme"
+        app:fontFamily="@font/aldrich">
+
+        <activity android:name=".View.LogInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.ActivitiesPracticante.PracticanteActivity"
+            android:label="Bienvenido Practicante" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".View.ActivitiesPracticante.RegistrarEntregableActivity"
+            android:label="Registrar Entregables" />
+        <activity
+            android:name=".View.ActivitiesPracticante.CalendarioPracticanteActivity"
+            android:label="Consultar notas" />
+        <activity
+            android:name=".View.ActivitiesPracticante.MinutaActivity"
+            android:label="Crear minuta de reunión" />
+        <activity
+            android:name=".View.ActivitiesAsesor.AsesorActivity"
+            android:label="Bienvenido Profesor Asesor" />
+        <activity
+            android:name=".View.ActivitiesAsesor.CalendarioAsesorActivity"
+            android:label="Consultar calendario" />
+        <activity
+            android:name=".View.ActivitiesAsesor.AsignarNotaActivity"
+            android:label="Asignar nota a un entregable" />
+        <activity android:name=".View.ActivitiesAsesor.ConsultarEntregableActivity"
+            android:label="Consultar entregable"/>
+        <activity android:name=".View.ActivitiesAsesor.SolicitarReunionActivity"
+            android:label="Solicitar reunión"/>
+        <activity android:name=".View.ActivitiesAsesor.ConsultarMinutasActivity"
+            android:label="Consultar minutas"></activity>
+        <activity android:name=".View.ActivitiesEncargado.EncargadoActivity"
+            android:label="Bievenido Encargado"/>
+        <activity android:name=".View.ActivitiesEncargado.RegistrarProfCursoActivity"
+            android:label="Registrar profesor de curso"/>
+        <activity android:name=".View.ActivitiesEncargado.RegistrarPeriodoActivity"
+            android:label="Registrar periodo"/>
+        <activity android:name=".View.ActivitiesEncargado.RegistrarEmpresaActivity"
+            android:label="Registrar empresa"/>
+        <activity android:name=".View.ActivitiesEncargado.RegistrarPracticanteActivity"
+            android:label="Registrar practicante"/>
+        <activity android:name=".View.ActivitiesEncargado.CrearCalendarioActivity"
+            android:label="Crear calendario"/>
+        <activity android:name=".View.ActivitiesProfCurso.AsignarNotaProfCursoActivity"
+            android:label="Asignar nota"/>
+        <activity android:name=".View.ActivitiesProfCurso.ConsultarDatosActivity"
+            android:label="Consultar practicante"/>
+        <activity android:name=".View.ActivitiesProfCurso.ConsultarNotasFinales"
+            android:label="Consultar notas finales"/>
+        <activity android:name=".View.ActivitiesProfCurso.PCursoActivity"
+            android:label="Bievenido Profesor de Curso"></activity>
+    </application>
+
+</manifest>

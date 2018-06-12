@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="Inicio"
+            />
+        <item
+            android:id="@+id/nav_empresa"
+            android:title="Registar empresa" />
+        <item
+            android:id="@+id/nav_profC"
+            android:title="Registrar profesor" />
+        <item
+            android:id="@+id/nav_periodo"
+            android:title="Registrar periodo de práctica"
+            />
+        <item
+            android:id="@+id/nav_practicante"
+            android:title="Registrar practicante"
+            />
+        <item
+            android:id="@+id/nav_calendario"
+            android:title="Crear calendario de entregables"
+            />
+        <item
+            android:id="@+id/nav_log_out"
+            android:title="Salir"
+            />
+    </group>
+</menu>

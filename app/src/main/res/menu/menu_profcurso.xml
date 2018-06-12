@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_inicio1"
+            android:title="Inicio"
+            />
+        <item
+            android:id="@+id/nav_reporteNotas"
+            android:title="Consultar reporte final de notas"
+            />
+        <item
+            android:id="@+id/nav_datosPracticante"
+            android:title="Consultar datos de un practicante" />
+        <item
+            android:id="@+id/nav_asignarNota"
+            android:title="Asignar nota"
+            />
+        <item
+            android:id="@+id/nav_log_out"
+            android:title="Salir"
+            />
+    </group>
+</menu>
